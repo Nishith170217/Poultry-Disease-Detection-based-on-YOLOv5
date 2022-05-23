@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Poultry Disease Detection</title>
+    <title>YOLO-Object Detection</title>
     <link rel="stylesheet" type="text/css" href="../static/index.css" />
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -11,54 +11,29 @@
     <script type="text/javascript" src="../static/index.js"></script>
   </head>
   <body>
-    <!-- home section start -->
-<section class="home-section section" id="home">
-    <!-- effect wrap start -->
-    <div class="effect-wrap">
-       <div class="effect effect-1">
-       </div>
-       <div class="effect effect-2">
-         <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-       </div>
-       <div class="effect effect-3">
-       </div>
-       <div class="effect effect-4">
-       </div>
-       <div class="effect effect-5">
-         <div></div><div></div><div></div><div></div><div></div>
-         <div></div><div></div><div></div><div></div><div></div>
-       </div>
-    </div>
-    <!-- effect wrap end -->
-    <div class="container">
-        <div class="row full-screen align-items-center">
-           <div class="home-text">
-        
-             <h2>Poultry Disease Identification from Feces Images</h2>
-             <h1>A Project By, Nishith</h1>
-             <p>Please take photo from the file</p>
-             <div class="home-imgin">   
-                <form > 
-                <input
-                  id="imageinput"
-                  type="file"
-                  name="image"
-                  onchange="readUrl(this)"
-                />
-                </form>
-                <button class="btn" name="send" id="sendbutton">Send to model</button>
-             </div>
-             <div class="loader" id="link">
-                <a href="" id="download" download>Download</a>
-             </div>
-           </div>
-           
-           
+    <div class="App">
+      <header class="App-header">
+        <p><u> Object Detection - YOLO </u></p>
+        <!-- <div className="pre_img">
+          <span><img id="imagebox" src="" /></span>
+        </div> -->
+        <div id="link">
+          <a href="" id="download" download>Download</a>
         </div>
-        
+        <!-- <video width="320" height="240" controls>
+          <source src="/static/video_1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video> -->
+        <form>
+          <input
+            id="imageinput"
+            type="file"
+            name="image"
+            onchange="readUrl(this)"
+          />
+        </form>
+        <button name="send" id="sendbutton">Send</button>
+      </header>
     </div>
-  </section>
-  <!-- home section end -->
-  
-</body>
+  </body>
 </html>
