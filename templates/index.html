@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Poultry Disease Detection</title>
+    <link rel="stylesheet" type="text/css" href="../static/index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="../static/index.js"></script>
+  </head>
+  <body>
+    <!-- home section start -->
+<section class="home-section section" id="home">
+    <!-- effect wrap start -->
+    <div class="effect-wrap">
+       <div class="effect effect-1">
+       </div>
+       <div class="effect effect-2">
+         <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+       </div>
+       <div class="effect effect-3">
+       </div>
+       <div class="effect effect-4">
+       </div>
+       <div class="effect effect-5">
+         <div></div><div></div><div></div><div></div><div></div>
+         <div></div><div></div><div></div><div></div><div></div>
+       </div>
+    </div>
+    <!-- effect wrap end -->
+    <div class="container">
+        <div class="row full-screen align-items-center">
+           <div class="home-text">
+        
+             <h2>Poultry Disease Identification from Feces Images</h2>
+             <h1>A Project By, Nishith</h1>
+             <p>Please take photo from the file</p>
+             <div class="home-imgin">   
+                <form > 
+                <input
+                  id="imageinput"
+                  type="file"
+                  name="image"
+                  onchange="readUrl(this)"
+                />
+                </form>
+                <button class="btn" name="send" id="sendbutton">Send to model</button>
+             </div>
+             <div class="loader" id="link">
+                <a href="" id="download" download>Download</a>
+             </div>
+           </div>
+           
+           
+        </div>
+        
+    </div>
+  </section>
+  <!-- home section end -->
+  
+</body>
+</html>
